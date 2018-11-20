@@ -17,7 +17,7 @@ public class OrderMgrController {
     private RestTemplate restTemplate;
 
     //private static String accountMgrUrl = System.getProperty("ACCOUNTMGR_URL", System.getenv("ACCOUNTMGR_URL"));
-    private static String accountMgrUrl = "http://accountmanager3-zuulprj.13.71.84.22.nip.io";
+    private static String accountMgrUrl = "http://accountmanager5-zuulprj.13.71.84.22.nip.io";
 
     @Autowired
     private io.opentracing.Tracer tracer;
